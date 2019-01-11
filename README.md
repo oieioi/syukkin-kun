@@ -3,7 +3,7 @@ syukkin-kun
 
 moneyforward クラウド給与の出勤・退勤をコマンドラインから行う
 
-INSTALL
+INSTALLATION
 -------
 
 - clone this repo and cd the directory
