@@ -1,0 +1,27 @@
+{
+  "name": "syukkin-kun",
+  "version": "0.1.0",
+  "description": "MoneyForward cloud 給与出勤スクリプト",
+  "main": "index.js",
+  "dependencies": {
+    "puppeteer": "^1.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oieioi/syukkin-kun.git"
+  },
+  "keywords": [
+    "moneyforward"
+  ],
+  "author": "oieioi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oieioi/syukkin-kun/issues"
+  },
+  "homepage": "https://github.com/oieioi/syukkin-kun#readme"
+}
