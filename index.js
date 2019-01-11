@@ -6,7 +6,7 @@ const isTaikin = !isSyukkin;
 const button = isTaikin ? 'a[href="/my/time_recorder/clock_out"]' : 'a[href="/my/time_recorder/clock_in"]';
 
 (async () => {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({args: ['--no-sandbox', '--disable-setuid-sandbox']});
   const page = await browser.newPage();
   await page.goto('https://payroll.moneyforward.com/');
   await page.type('input#sign_in_session_service_email', userName);
