@@ -6,8 +6,8 @@ moneyforward クラウド給与の出勤・退勤をコマンドラインから�
 INSTALLATION
 -------
 
-- clone this repo and cd the directory
-- `docker build -t oieioi/syukkin-kun . --build-arg USER_NAME="your mail address" --build-arg PASSWORD="your password"`
+Clone this repo and cd the directory
+    $ docker build -t oieioi/syukkin-kun . --build-arg USER_NAME="your mail address" --build-arg PASSWORD="your password"
 
 USAGE
 -----
