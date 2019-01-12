@@ -1,7 +1,7 @@
 syukkin-kun
 ===========
 
-moneyforward クラウド給与の出勤・退勤をコマンドラインから行う
+[MoneyForward クラウド給与](https://payroll.moneyforward.com/) の出勤・退勤をコマンドラインから行う
 
 INSTALLATION
 -------
